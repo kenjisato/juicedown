@@ -14,7 +14,7 @@ includeText(path, data = parent.frame(), quiet = TRUE)
 \item{quiet}{Passed to \code{\link[knitr:knit]{knitr::knit()}}.}
 }
 \value{
-An R object of class "knit_asis" (defined in the \link{knitr} package),
+An R object of class "knit_asis" (defined in the \link[knitr:knitr-package]{knitr} package),
 the data of which represents the content of the child document (after
 \code{\link[knitr:knit]{knitr::knit()}})
 }

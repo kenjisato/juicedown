@@ -25,7 +25,7 @@ includeFlickr <- function(albumUrl, title = NULL, width = 480, height = 360) {
   }
 
   album_url <-
-    html |>
+    html %>%
     rvest::html_node('[property="og:url"]') %>%
     rvest::html_attr("content") %>%
     stringr::str_replace("sets", "albums")

@@ -12,6 +12,8 @@ A convenience tool to create 'HTML' with inline styles using 'juicyjuice' and 'm
 Useful links:
 \itemize{
   \item \url{https://kenjisato.github.io/juicedown/}
+  \item \url{https://github.com/kenjisato/juicedown}
+  \item Report bugs at \url{https://github.com/kenjisato/juicedown/issues}
 }
 
 }

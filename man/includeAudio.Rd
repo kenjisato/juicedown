@@ -19,7 +19,7 @@ includeAudio(
 the audio tag.}
 }
 \value{
-An R object of class "knit_asis" (defined in the \link{knitr} package),
+An R object of class "knit_asis" (defined in the \link[knitr:knitr-package]{knitr} package),
 the data of which is the HTML audio tag to insert into the document.
 }
 \description{
