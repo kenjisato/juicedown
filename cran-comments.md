@@ -1,19 +1,14 @@
 ## R CMD check results
 
-0 errors | 0 warnings | 1 note
-
-* This is a new release.
+0 errors | 0 warnings | 0 notes
 
 ## Resubmission
 
-This is a resubmission. In this version I have:
+This submission addresses CRAN's NOTE about Rd cross-references requiring package anchors.
 
-* Added single quotes for package names, software names and APIs in 
-  title and description fields of the DESCRIPTION file. Software and package 
-  names are now written in proper case.
-  
-* Added the link to the website of the package in the description field
-  of DESCRIPTION.
-  
-* Modified the documentation of `includeText()`. It now has a proper \value{} entry.
+- Updated links to use anchors (e.g., `\link[knitr:knitr-package]{knitr}`, `\link[knitr:knit]{knitr::knit}`).
+- Replaced accidental use of base pipe `|>` with `%>%` to keep `Depends: R (>= 3.6.0)` unchanged.
 
+## Downstream dependencies
+
+None known.
